@@ -31,14 +31,23 @@ export async function POST(req: Request, res: Response) {
       const {
         // @ts-ignore
         metadata: {
+          //@ts-ignore
           adults,
+          //@ts-ignore
           checkinDate,
+          //@ts-ignore
           checkoutDate,
+          //@ts-ignore
           children,
+          //@ts-ignore
           hotelRoom,
+          //@ts-ignore
           numberOfDays,
+          //@ts-ignore
           user,
+          //@ts-ignore
           discount,
+          //@ts-ignore
           totalPrice,
         },
       } = session;
